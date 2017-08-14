@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6254CC5D1F180D4A00C1E3EE /* ServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6254CC5C1F180D4A00C1E3EE /* ServerAPI.swift */; };
+		62E4B9DC1EFC3AE4000C8D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4B9DB1EFC3AE4000C8D09 /* AppDelegate.swift */; };
+		62E4B9DE1EFC3AE4000C8D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4B9DD1EFC3AE4000C8D09 /* ViewController.swift */; };
+		62E4B9E11EFC3AE4000C8D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E4B9DF1EFC3AE4000C8D09 /* Main.storyboard */; };
+		62E4B9E31EFC3AE4000C8D09 /* SeaMain in Resources */ = {isa = PBXBuildFile; fileRef = 62E4B9E21EFC3AE4000C8D09 /* SeaMain */; };
+		62E4B9E61EFC3AE4000C8D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E4B9E41EFC3AE4000C8D09 /* LaunchScreen.storyboard */; };
+		62E4B9F11EFC3AE4000C8D09 /* seahuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4B9F01EFC3AE4000C8D09 /* seahuntTests.swift */; };
+		62E4B9FC1EFC3AE4000C8D09 /* seahuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E4B9FB1EFC3AE4000C8D09 /* seahuntUITests.swift */; };
+		7A2FCFFB1F1963750083CEDD /* JavaServerConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2FCFFA1F1963750083CEDD /* JavaServerConnect.swift */; };
+		7A78147F1F0D7B2D00E40790 /* Images-4.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A78147E1F0D7B2D00E40790 /* Images-4.xcassets */; };
+		7ABBDD4F1F30CF9200C6DBA3 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABBDD4E1F30CF9200C6DBA3 /* PopUpViewController.swift */; };
+		7AF80CD61F142283006026C7 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF80CD51F142283006026C7 /* Image.swift */; };
+		7AF80CD81F142CA2006026C7 /* StandardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF80CD71F142CA2006026C7 /* StandardImage.swift */; };
+		7AF80CDE1F1439AA006026C7 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF80CDD1F1439AA006026C7 /* Camera.swift */; };
+		DB0FAF031F266E59000AFC1F /* Confetti-PNG-Image.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0FAF021F266E59000AFC1F /* Confetti-PNG-Image.png */; };
+		DB12EE591F02B3F900F3CED2 /* EarthNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = DB12EE581F02B3F900F3CED2 /* EarthNeedle.png */; };
+		DB14BB001F3245E2007103FB /* kirby.png in Resources */ = {isa = PBXBuildFile; fileRef = DB14BAFF1F3245E2007103FB /* kirby.png */; };
+		DB1EA51C1EFDB39800DC8268 /* 09eedd9fa9a985c1628fcd5e68031f08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB1EA51B1EFDB39800DC8268 /* 09eedd9fa9a985c1628fcd5e68031f08.jpg */; };
+		DB26A60F1F17BF79004696C6 /* olympic-sculpture-park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB26A60E1F17BF79004696C6 /* olympic-sculpture-park.jpg */; };
+		DB26A6111F17C0A1004696C6 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB26A6101F17C0A1004696C6 /* images.jpg */; };
+		DB26A6131F17C193004696C6 /* CoolClips_arts0043.png in Resources */ = {isa = PBXBuildFile; fileRef = DB26A6121F17C193004696C6 /* CoolClips_arts0043.png */; };
+		DB26A6151F17D6A9004696C6 /* b8f95f67ba775dc9d98f78f80892b038.png in Resources */ = {isa = PBXBuildFile; fileRef = DB26A6141F17D6A9004696C6 /* b8f95f67ba775dc9d98f78f80892b038.png */; };
+		DB26A6171F17D788004696C6 /* 8-jpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB26A6161F17D788004696C6 /* 8-jpg.jpg */; };
+		DB440F901F01C93A009BA082 /* Seattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB440F8F1F01C93A009BA082 /* Seattle.jpg */; };
+		DB440F921F02A421009BA082 /* flat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB440F911F02A421009BA082 /* flat.jpg */; };
+		DB440F941F02A6EF009BA082 /* blueDark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB440F931F02A6EF009BA082 /* blueDark.jpg */; };
+		DB5912861F05585B008C24B5 /* crowdinsunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5912851F05585B008C24B5 /* crowdinsunset.jpg */; };
+		DB5B74EC1F0D85250004A1CE /* easy-wallp-hd-wallpapers-animated.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B74EB1F0D85250004A1CE /* easy-wallp-hd-wallpapers-animated.jpg */; };
+		DB5B74F01F0D8FF70004A1CE /* 20270ab8368864af0f9f7a2f18b56d7c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B74EF1F0D8FF70004A1CE /* 20270ab8368864af0f9f7a2f18b56d7c.jpg */; };
+		DB5B74F21F0D9FC00004A1CE /* PinkSpaceNeedle.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5B74F11F0D9FC00004A1CE /* PinkSpaceNeedle.png */; };
+		DB5B74FA1F0DA4DA0004A1CE /* 20140927_5426a6bbd3816.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B74F91F0DA4DA0004A1CE /* 20140927_5426a6bbd3816.jpg */; };
+		DB5B75001F0E821A0004A1CE /* canstock31551803.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B74FF1F0E821A0004A1CE /* canstock31551803.jpg */; };
+		DB5B75061F0E84990004A1CE /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B75051F0E84990004A1CE /* maxresdefault.jpg */; };
+		DB5B750A1F0E84BC0004A1CE /* sunrise-landscape-in-the-forest_23-2147512072.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B75091F0E84BC0004A1CE /* sunrise-landscape-in-the-forest_23-2147512072.jpg */; };
+		DB5B750C1F0E84EC0004A1CE /* NOtSeattle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B750B1F0E84EC0004A1CE /* NOtSeattle.jpg */; };
+		DB5B75101F0E9C4E0004A1CE /* SeattleSkyline_web.gif in Resources */ = {isa = PBXBuildFile; fileRef = DB5B750F1F0E9C4E0004A1CE /* SeattleSkyline_web.gif */; };
+		DB5B75121F0E9D300004A1CE /* HamiltonViewpointPark4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B75111F0E9D300004A1CE /* HamiltonViewpointPark4.jpg */; };
+		DB5B75141F0E9D3E0004A1CE /* Hamilton_Viewpoint,_Seattle,_March_2013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5B75131F0E9D3E0004A1CE /* Hamilton_Viewpoint,_Seattle,_March_2013.jpg */; };
+		DB5C73A01F0472DE00C54DEF /* CoolClips_vc021117.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5C739F1F0472DE00C54DEF /* CoolClips_vc021117.png */; };
+		DB5DDE0B1F045582001F9EF9 /* _vector-brick-and-plaster-preview2-by-dragonart.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5DDE0A1F045582001F9EF9 /* _vector-brick-and-plaster-preview2-by-dragonart.png */; };
+		DB5DDE0D1F0455FE001F9EF9 /* gum.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5DDE0C1F0455FE001F9EF9 /* gum.png */; };
+		DB5DDE0F1F045710001F9EF9 /* GumWall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB5DDE0E1F045710001F9EF9 /* GumWall.jpg */; };
+		DB8557291F017361003BB615 /* clipart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB8557281F017361003BB615 /* clipart.jpg */; };
+		DB8DF8A81F197C7D00A3B4D1 /* cloud-clipart-cirrus-clouds-clipart.png in Resources */ = {isa = PBXBuildFile; fileRef = DB8DF8A71F197C7D00A3B4D1 /* cloud-clipart-cirrus-clouds-clipart.png */; };
+		DB9B92BE1F041B73002DC725 /* Tour Guide.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9B92BD1F041B73002DC725 /* Tour Guide.png */; };
+		DB9B92C21F041EBC002DC725 /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9B92C11F041EBC002DC725 /* bubble.png */; };
+		DB9B92C61F042357002DC725 /* Ferris-Wheel-Vector-Silhouette.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9B92C51F042357002DC725 /* Ferris-Wheel-Vector-Silhouette.png */; };
+		DBAB863E1F02C60700969BCF /* bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAB863D1F02C60700969BCF /* bridge.jpg */; };
+		DBAB86421F02D34000969BCF /* RiskyColors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAB86411F02D34000969BCF /* RiskyColors.jpg */; };
+		DBAB86441F02D88400969BCF /* FunkyColors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAB86431F02D88400969BCF /* FunkyColors.jpg */; };
+		DBAB86481F02DA7300969BCF /* ModernCity.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAB86471F02DA7300969BCF /* ModernCity.jpg */; };
+		DBAB864A1F02DBBD00969BCF /* Houses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBAB86491F02DBBD00969BCF /* Houses.jpg */; };
+		DBB517E81F059F0A00F91862 /* tree-51-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB517E71F059F0A00F91862 /* tree-51-xxl.png */; };
+		DBB517EE1F05A70B00F91862 /* lincoln-park-12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB517ED1F05A70B00F91862 /* lincoln-park-12.jpg */; };
+		DBB517F01F05AB6500F91862 /* train-bridge-at-ballard-locks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB517EF1F05AB6500F91862 /* train-bridge-at-ballard-locks.jpg */; };
+		DBB517F21F05ABDE00F91862 /* Pilot-Boat-By-Rones.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB517F11F05ABDE00F91862 /* Pilot-Boat-By-Rones.png */; };
+		DBB517F41F05B03D00F91862 /* 800pxFremontTrollJun12_3103wSeattle5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB517F31F05B03D00F91862 /* 800pxFremontTrollJun12_3103wSeattle5.jpg */; };
+		DBB517F61F05B0EF00F91862 /* Internet_Troll.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB517F51F05B0EF00F91862 /* Internet_Troll.png */; };
+		DBB517F81F05B5E700F91862 /* GasWorksPark3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBB517F71F05B5E700F91862 /* GasWorksPark3.jpg */; };
+		DBB517FE1F05BD6800F91862 /* pollution.png in Resources */ = {isa = PBXBuildFile; fileRef = DBB517FD1F05BD6800F91862 /* pollution.png */; };
+		DBBC4A3F1F30EE130037E06E /* cover.jpg.png in Resources */ = {isa = PBXBuildFile; fileRef = DBBC4A3E1F30EE130037E06E /* cover.jpg.png */; };
+		DBC07C001F0577E900EFC611 /* 6980-illustration-of-a-lighthouse-pv.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC07BFF1F0577E900EFC611 /* 6980-illustration-of-a-lighthouse-pv.png */; };
+		DBC07C021F057CE500EFC611 /* AlkiPoint.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC07C011F057CE500EFC611 /* AlkiPoint.jpg */; };
+		DBC11EC01F0546F5004034F0 /* t-spaceneedle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC11EBF1F0546F5004034F0 /* t-spaceneedle.jpg */; };
+		DBC11EC21F05539C004034F0 /* SheStatue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBC11EC11F05539C004034F0 /* SheStatue.jpg */; };
+		DBC57B8A1F311FFD001A51E5 /* home_blanc.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC57B891F311FFD001A51E5 /* home_blanc.png */; };
+		DBE2DCD91F0428BB00B2F5E2 /* Seattle.Great.Wheel.original.36606.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DBE2DCD81F0428BB00B2F5E2 /* Seattle.Great.Wheel.original.36606.jpg */; };
+		EB0A99E51F16838F009580BD /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB0A99E41F16838F009580BD /* 1.jpg */; };
+		EB0A99E71F1695D5009580BD /* home-letsgetstarted.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A99E61F1695D5009580BD /* home-letsgetstarted.png */; };
+		EB0A99EB1F29006A009580BD /* layer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB0A99EA1F29006A009580BD /* layer.jpg */; };
+		EB0A99ED1F2A3FAB009580BD /* Green Checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0A99EC1F2A3FAB009580BD /* Green Checkmark.png */; };
+		EB0A99EF1F2A3FBD009580BD /* red lock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB0A99EE1F2A3FBD009580BD /* red lock.jpg */; };
+		EB4AD54F1F06A963001A9C3D /* rocks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4AD54E1F06A963001A9C3D /* rocks.jpg */; };
+		EB4AD5511F06A97F001A9C3D /* water2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4AD5501F06A97F001A9C3D /* water2.jpg */; };
+		EB4AD5531F06A99E001A9C3D /* seattle2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB4AD5521F06A99E001A9C3D /* seattle2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62E4B9ED1EFC3AE4000C8D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E4B9D01EFC3AE4000C8D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E4B9D71EFC3AE4000C8D09;
+			remoteInfo = seahunt;
+		};
+		62E4B9F81EFC3AE4000C8D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62E4B9D01EFC3AE4000C8D09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62E4B9D71EFC3AE4000C8D09;
+			remoteInfo = seahunt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6254CC5C1F180D4A00C1E3EE /* ServerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPI.swift; sourceTree = "<group>"; };
+		62E4B9D81EFC3AE4000C8D09 /* seahunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seahunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E4B9DB1EFC3AE4000C8D09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62E4B9DD1EFC3AE4000C8D09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62E4B9E01EFC3AE4000C8D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62E4B9E21EFC3AE4000C8D09 /* SeaMain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SeaMain; sourceTree = "<group>"; };
+		62E4B9E51EFC3AE4000C8D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62E4B9E71EFC3AE4000C8D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E4B9EC1EFC3AE4000C8D09 /* seahuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seahuntTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E4B9F01EFC3AE4000C8D09 /* seahuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seahuntTests.swift; sourceTree = "<group>"; };
+		62E4B9F21EFC3AE4000C8D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E4B9F71EFC3AE4000C8D09 /* seahuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seahuntUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E4B9FB1EFC3AE4000C8D09 /* seahuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seahuntUITests.swift; sourceTree = "<group>"; };
+		62E4B9FD1EFC3AE4000C8D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2FCFFA1F1963750083CEDD /* JavaServerConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JavaServerConnect.swift; sourceTree = "<group>"; };
+		7A78147E1F0D7B2D00E40790 /* Images-4.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-4.xcassets"; sourceTree = "<group>"; };
+		7ABBDD4E1F30CF9200C6DBA3 /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		7AF80CD51F142283006026C7 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		7AF80CD71F142CA2006026C7 /* StandardImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardImage.swift; sourceTree = "<group>"; };
+		7AF80CDD1F1439AA006026C7 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DB0FAF021F266E59000AFC1F /* Confetti-PNG-Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Confetti-PNG-Image.png"; sourceTree = "<group>"; };
+		DB12EE581F02B3F900F3CED2 /* EarthNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = EarthNeedle.png; path = seahunt/EarthNeedle.png; sourceTree = "<group>"; };
+		DB14BAFF1F3245E2007103FB /* kirby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kirby.png; path = seahunt/kirby.png; sourceTree = "<group>"; };
+		DB1EA51B1EFDB39800DC8268 /* 09eedd9fa9a985c1628fcd5e68031f08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 09eedd9fa9a985c1628fcd5e68031f08.jpg; path = seahunt/09eedd9fa9a985c1628fcd5e68031f08.jpg; sourceTree = "<group>"; };
+		DB26A60E1F17BF79004696C6 /* olympic-sculpture-park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "olympic-sculpture-park.jpg"; path = "seahunt/olympic-sculpture-park.jpg"; sourceTree = "<group>"; };
+		DB26A6101F17C0A1004696C6 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		DB26A6121F17C193004696C6 /* CoolClips_arts0043.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CoolClips_arts0043.png; path = seahunt/CoolClips_arts0043.png; sourceTree = "<group>"; };
+		DB26A6141F17D6A9004696C6 /* b8f95f67ba775dc9d98f78f80892b038.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b8f95f67ba775dc9d98f78f80892b038.png; path = seahunt/b8f95f67ba775dc9d98f78f80892b038.png; sourceTree = "<group>"; };
+		DB26A6161F17D788004696C6 /* 8-jpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8-jpg.jpg"; sourceTree = "<group>"; };
+		DB440F8F1F01C93A009BA082 /* Seattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.jpg; sourceTree = "<group>"; };
+		DB440F911F02A421009BA082 /* flat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = flat.jpg; path = seahunt/flat.jpg; sourceTree = "<group>"; };
+		DB440F931F02A6EF009BA082 /* blueDark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueDark.jpg; sourceTree = "<group>"; };
+		DB5912851F05585B008C24B5 /* crowdinsunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = crowdinsunset.jpg; path = seahunt/crowdinsunset.jpg; sourceTree = "<group>"; };
+		DB5B74EB1F0D85250004A1CE /* easy-wallp-hd-wallpapers-animated.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "easy-wallp-hd-wallpapers-animated.jpg"; sourceTree = "<group>"; };
+		DB5B74EF1F0D8FF70004A1CE /* 20270ab8368864af0f9f7a2f18b56d7c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20270ab8368864af0f9f7a2f18b56d7c.jpg; sourceTree = "<group>"; };
+		DB5B74F11F0D9FC00004A1CE /* PinkSpaceNeedle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PinkSpaceNeedle.png; sourceTree = "<group>"; };
+		DB5B74F91F0DA4DA0004A1CE /* 20140927_5426a6bbd3816.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20140927_5426a6bbd3816.jpg; sourceTree = "<group>"; };
+		DB5B74FF1F0E821A0004A1CE /* canstock31551803.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = canstock31551803.jpg; path = seahunt/canstock31551803.jpg; sourceTree = "<group>"; };
+		DB5B75051F0E84990004A1CE /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		DB5B75091F0E84BC0004A1CE /* sunrise-landscape-in-the-forest_23-2147512072.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sunrise-landscape-in-the-forest_23-2147512072.jpg"; sourceTree = "<group>"; };
+		DB5B750B1F0E84EC0004A1CE /* NOtSeattle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NOtSeattle.jpg; sourceTree = "<group>"; };
+		DB5B750F1F0E9C4E0004A1CE /* SeattleSkyline_web.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SeattleSkyline_web.gif; sourceTree = "<group>"; };
+		DB5B75111F0E9D300004A1CE /* HamiltonViewpointPark4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HamiltonViewpointPark4.jpg; sourceTree = "<group>"; };
+		DB5B75131F0E9D3E0004A1CE /* Hamilton_Viewpoint,_Seattle,_March_2013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Hamilton_Viewpoint,_Seattle,_March_2013.jpg"; sourceTree = "<group>"; };
+		DB5C739F1F0472DE00C54DEF /* CoolClips_vc021117.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoolClips_vc021117.png; sourceTree = "<group>"; };
+		DB5DDE0A1F045582001F9EF9 /* _vector-brick-and-plaster-preview2-by-dragonart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "_vector-brick-and-plaster-preview2-by-dragonart.png"; path = "seahunt/_vector-brick-and-plaster-preview2-by-dragonart.png"; sourceTree = "<group>"; };
+		DB5DDE0C1F0455FE001F9EF9 /* gum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gum.png; path = seahunt/gum.png; sourceTree = "<group>"; };
+		DB5DDE0E1F045710001F9EF9 /* GumWall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GumWall.jpg; sourceTree = "<group>"; };
+		DB8557281F017361003BB615 /* clipart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = clipart.jpg; path = seahunt/clipart.jpg; sourceTree = "<group>"; };
+		DB8DF8A71F197C7D00A3B4D1 /* cloud-clipart-cirrus-clouds-clipart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cloud-clipart-cirrus-clouds-clipart.png"; path = "seahunt/cloud-clipart-cirrus-clouds-clipart.png"; sourceTree = "<group>"; };
+		DB9B92BD1F041B73002DC725 /* Tour Guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Tour Guide.png"; path = "seahunt/Tour Guide.png"; sourceTree = "<group>"; };
+		DB9B92C11F041EBC002DC725 /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		DB9B92C51F042357002DC725 /* Ferris-Wheel-Vector-Silhouette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Ferris-Wheel-Vector-Silhouette.png"; path = "seahunt/Ferris-Wheel-Vector-Silhouette.png"; sourceTree = "<group>"; };
+		DBAB863D1F02C60700969BCF /* bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bridge.jpg; path = seahunt/bridge.jpg; sourceTree = "<group>"; };
+		DBAB86411F02D34000969BCF /* RiskyColors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RiskyColors.jpg; path = seahunt/RiskyColors.jpg; sourceTree = "<group>"; };
+		DBAB86431F02D88400969BCF /* FunkyColors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FunkyColors.jpg; path = seahunt/FunkyColors.jpg; sourceTree = "<group>"; };
+		DBAB86471F02DA7300969BCF /* ModernCity.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ModernCity.jpg; path = seahunt/ModernCity.jpg; sourceTree = "<group>"; };
+		DBAB86491F02DBBD00969BCF /* Houses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Houses.jpg; path = seahunt/Houses.jpg; sourceTree = "<group>"; };
+		DBB517E71F059F0A00F91862 /* tree-51-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tree-51-xxl.png"; sourceTree = "<group>"; };
+		DBB517ED1F05A70B00F91862 /* lincoln-park-12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "lincoln-park-12.jpg"; path = "seahunt/lincoln-park-12.jpg"; sourceTree = "<group>"; };
+		DBB517EF1F05AB6500F91862 /* train-bridge-at-ballard-locks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "train-bridge-at-ballard-locks.jpg"; sourceTree = "<group>"; };
+		DBB517F11F05ABDE00F91862 /* Pilot-Boat-By-Rones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pilot-Boat-By-Rones.png"; sourceTree = "<group>"; };
+		DBB517F31F05B03D00F91862 /* 800pxFremontTrollJun12_3103wSeattle5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 800pxFremontTrollJun12_3103wSeattle5.jpg; path = seahunt/800pxFremontTrollJun12_3103wSeattle5.jpg; sourceTree = "<group>"; };
+		DBB517F51F05B0EF00F91862 /* Internet_Troll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Internet_Troll.png; sourceTree = "<group>"; };
+		DBB517F71F05B5E700F91862 /* GasWorksPark3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = GasWorksPark3.jpg; path = seahunt/GasWorksPark3.jpg; sourceTree = "<group>"; };
+		DBB517FD1F05BD6800F91862 /* pollution.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pollution.png; path = seahunt/pollution.png; sourceTree = "<group>"; };
+		DBBC4A3E1F30EE130037E06E /* cover.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover.jpg.png; path = seahunt/cover.jpg.png; sourceTree = "<group>"; };
+		DBC07BFF1F0577E900EFC611 /* 6980-illustration-of-a-lighthouse-pv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6980-illustration-of-a-lighthouse-pv.png"; path = "seahunt/6980-illustration-of-a-lighthouse-pv.png"; sourceTree = "<group>"; };
+		DBC07C011F057CE500EFC611 /* AlkiPoint.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlkiPoint.jpg; sourceTree = "<group>"; };
+		DBC11EBF1F0546F5004034F0 /* t-spaceneedle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "t-spaceneedle.jpg"; sourceTree = "<group>"; };
+		DBC11EC11F05539C004034F0 /* SheStatue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SheStatue.jpg; sourceTree = "<group>"; };
+		DBC57B891F311FFD001A51E5 /* home_blanc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_blanc.png; path = seahunt/home_blanc.png; sourceTree = "<group>"; };
+		DBE2DCD81F0428BB00B2F5E2 /* Seattle.Great.Wheel.original.36606.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seattle.Great.Wheel.original.36606.jpg; sourceTree = "<group>"; };
+		EB0A99E41F16838F009580BD /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EB0A99E61F1695D5009580BD /* home-letsgetstarted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-letsgetstarted.png"; sourceTree = SOURCE_ROOT; };
+		EB0A99EA1F29006A009580BD /* layer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = layer.jpg; sourceTree = SOURCE_ROOT; };
+		EB0A99EC1F2A3FAB009580BD /* Green Checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Checkmark.png"; sourceTree = SOURCE_ROOT; };
+		EB0A99EE1F2A3FBD009580BD /* red lock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "red lock.jpg"; sourceTree = "<group>"; };
+		EB4AD54E1F06A963001A9C3D /* rocks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rocks.jpg; sourceTree = SOURCE_ROOT; };
+		EB4AD5501F06A97F001A9C3D /* water2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = water2.jpg; sourceTree = "<group>"; };
+		EB4AD5521F06A99E001A9C3D /* seattle2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = seattle2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62E4B9D51EFC3AE4000C8D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E4B9E91EFC3AE4000C8D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E4B9F41EFC3AE4000C8D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62E4B9CF1EFC3AE4000C8D09 = {
+			isa = PBXGroup;
+			children = (
+				62E4B9DA1EFC3AE4000C8D09 /* seahunt */,
+				62E4B9EF1EFC3AE4000C8D09 /* seahuntTests */,
+				62E4B9FA1EFC3AE4000C8D09 /* seahuntUITests */,
+				62E4B9D91EFC3AE4000C8D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62E4B9D91EFC3AE4000C8D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B9D81EFC3AE4000C8D09 /* seahunt.app */,
+				62E4B9EC1EFC3AE4000C8D09 /* seahuntTests.xctest */,
+				62E4B9F71EFC3AE4000C8D09 /* seahuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E4B9DA1EFC3AE4000C8D09 /* seahunt */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B9DB1EFC3AE4000C8D09 /* AppDelegate.swift */,
+				62E4B9DD1EFC3AE4000C8D09 /* ViewController.swift */,
+				62E4B9DF1EFC3AE4000C8D09 /* Main.storyboard */,
+				7AF80CD51F142283006026C7 /* Image.swift */,
+				7ABBDD4E1F30CF9200C6DBA3 /* PopUpViewController.swift */,
+				7AF80CDD1F1439AA006026C7 /* Camera.swift */,
+				7A2FCFFA1F1963750083CEDD /* JavaServerConnect.swift */,
+				7AF80CD71F142CA2006026C7 /* StandardImage.swift */,
+				62E4B9E21EFC3AE4000C8D09 /* SeaMain */,
+				62E4B9E41EFC3AE4000C8D09 /* LaunchScreen.storyboard */,
+				62E4B9E71EFC3AE4000C8D09 /* Info.plist */,
+				DB1EA4DE1EFD5C9E00DC8268 /* Images */,
+				7A78147E1F0D7B2D00E40790 /* Images-4.xcassets */,
+				6254CC5C1F180D4A00C1E3EE /* ServerAPI.swift */,
+			);
+			path = seahunt;
+			sourceTree = "<group>";
+		};
+		62E4B9EF1EFC3AE4000C8D09 /* seahuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B9F01EFC3AE4000C8D09 /* seahuntTests.swift */,
+				62E4B9F21EFC3AE4000C8D09 /* Info.plist */,
+			);
+			path = seahuntTests;
+			sourceTree = "<group>";
+		};
+		62E4B9FA1EFC3AE4000C8D09 /* seahuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B9FB1EFC3AE4000C8D09 /* seahuntUITests.swift */,
+				62E4B9FD1EFC3AE4000C8D09 /* Info.plist */,
+			);
+			path = seahuntUITests;
+			sourceTree = "<group>";
+		};
+		DB1EA4DE1EFD5C9E00DC8268 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AD5471F06A15B001A9C3D /* Cam */,
+				DBB517FC1F05BCF800F91862 /* General */,
+				DBB517FB1F05BB9200F91862 /* Downtown */,
+				DBB517FA1F05BB7900F91862 /* West */,
+				DBB517F91F05BB6F00F91862 /* North */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DBB517F91F05BB6F00F91862 /* North */ = {
+			isa = PBXGroup;
+			children = (
+				DB26A6161F17D788004696C6 /* 8-jpg.jpg */,
+				DB26A6141F17D6A9004696C6 /* b8f95f67ba775dc9d98f78f80892b038.png */,
+				DBB517FD1F05BD6800F91862 /* pollution.png */,
+				DBB517F71F05B5E700F91862 /* GasWorksPark3.jpg */,
+				DBB517F31F05B03D00F91862 /* 800pxFremontTrollJun12_3103wSeattle5.jpg */,
+				DBB517F11F05ABDE00F91862 /* Pilot-Boat-By-Rones.png */,
+				DB5B74FF1F0E821A0004A1CE /* canstock31551803.jpg */,
+				DB5B74F91F0DA4DA0004A1CE /* 20140927_5426a6bbd3816.jpg */,
+				DBAB86471F02DA7300969BCF /* ModernCity.jpg */,
+				DBB517F51F05B0EF00F91862 /* Internet_Troll.png */,
+				DBB517EF1F05AB6500F91862 /* train-bridge-at-ballard-locks.jpg */,
+			);
+			name = North;
+			sourceTree = "<group>";
+		};
+		DBB517FA1F05BB7900F91862 /* West */ = {
+			isa = PBXGroup;
+			children = (
+				DB5B75131F0E9D3E0004A1CE /* Hamilton_Viewpoint,_Seattle,_March_2013.jpg */,
+				DB5B75111F0E9D300004A1CE /* HamiltonViewpointPark4.jpg */,
+				DBB517ED1F05A70B00F91862 /* lincoln-park-12.jpg */,
+				DB5B74EF1F0D8FF70004A1CE /* 20270ab8368864af0f9f7a2f18b56d7c.jpg */,
+				DBB517E71F059F0A00F91862 /* tree-51-xxl.png */,
+				DB5912851F05585B008C24B5 /* crowdinsunset.jpg */,
+				DBC07BFF1F0577E900EFC611 /* 6980-illustration-of-a-lighthouse-pv.png */,
+				DB5B750F1F0E9C4E0004A1CE /* SeattleSkyline_web.gif */,
+				DBAB86491F02DBBD00969BCF /* Houses.jpg */,
+				DBC11EC11F05539C004034F0 /* SheStatue.jpg */,
+				DBC07C011F057CE500EFC611 /* AlkiPoint.jpg */,
+			);
+			name = West;
+			sourceTree = "<group>";
+		};
+		DBB517FB1F05BB9200F91862 /* Downtown */ = {
+			isa = PBXGroup;
+			children = (
+				DB26A6121F17C193004696C6 /* CoolClips_arts0043.png */,
+				DB26A60E1F17BF79004696C6 /* olympic-sculpture-park.jpg */,
+				DB5B74F11F0D9FC00004A1CE /* PinkSpaceNeedle.png */,
+				DB5C739F1F0472DE00C54DEF /* CoolClips_vc021117.png */,
+				DB26A6101F17C0A1004696C6 /* images.jpg */,
+				DB9B92C51F042357002DC725 /* Ferris-Wheel-Vector-Silhouette.png */,
+				DBC11EBF1F0546F5004034F0 /* t-spaceneedle.jpg */,
+				DB5DDE0E1F045710001F9EF9 /* GumWall.jpg */,
+				DB5DDE0C1F0455FE001F9EF9 /* gum.png */,
+				DBE2DCD81F0428BB00B2F5E2 /* Seattle.Great.Wheel.original.36606.jpg */,
+				DBAB86431F02D88400969BCF /* FunkyColors.jpg */,
+				DB1EA51B1EFDB39800DC8268 /* 09eedd9fa9a985c1628fcd5e68031f08.jpg */,
+				DB5DDE0A1F045582001F9EF9 /* _vector-brick-and-plaster-preview2-by-dragonart.png */,
+			);
+			name = Downtown;
+			sourceTree = "<group>";
+		};
+		DBB517FC1F05BCF800F91862 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				DB0FAF021F266E59000AFC1F /* Confetti-PNG-Image.png */,
+				DBBC4A3E1F30EE130037E06E /* cover.jpg.png */,
+				DB14BAFF1F3245E2007103FB /* kirby.png */,
+				EB0A99EE1F2A3FBD009580BD /* red lock.jpg */,
+				EB0A99EC1F2A3FAB009580BD /* Green Checkmark.png */,
+				EB0A99EA1F29006A009580BD /* layer.jpg */,
+				DB8DF8A71F197C7D00A3B4D1 /* cloud-clipart-cirrus-clouds-clipart.png */,
+				DBC57B891F311FFD001A51E5 /* home_blanc.png */,
+				EB0A99E61F1695D5009580BD /* home-letsgetstarted.png */,
+				EB0A99E41F16838F009580BD /* 1.jpg */,
+				DB440F911F02A421009BA082 /* flat.jpg */,
+				DB5B750B1F0E84EC0004A1CE /* NOtSeattle.jpg */,
+				DB5B75051F0E84990004A1CE /* maxresdefault.jpg */,
+				DB5B74EB1F0D85250004A1CE /* easy-wallp-hd-wallpapers-animated.jpg */,
+				DB5B75091F0E84BC0004A1CE /* sunrise-landscape-in-the-forest_23-2147512072.jpg */,
+				DB8557281F017361003BB615 /* clipart.jpg */,
+				DB9B92C11F041EBC002DC725 /* bubble.png */,
+				DB440F8F1F01C93A009BA082 /* Seattle.jpg */,
+				DB440F931F02A6EF009BA082 /* blueDark.jpg */,
+				DBAB863D1F02C60700969BCF /* bridge.jpg */,
+				DB12EE581F02B3F900F3CED2 /* EarthNeedle.png */,
+				DBAB86411F02D34000969BCF /* RiskyColors.jpg */,
+				DB9B92BD1F041B73002DC725 /* Tour Guide.png */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		EB4AD5471F06A15B001A9C3D /* Cam */ = {
+			isa = PBXGroup;
+			children = (
+				EB4AD5521F06A99E001A9C3D /* seattle2.jpg */,
+				EB4AD54E1F06A963001A9C3D /* rocks.jpg */,
+				EB4AD5501F06A97F001A9C3D /* water2.jpg */,
+			);
+			name = Cam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62E4B9D71EFC3AE4000C8D09 /* seahunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E4BA001EFC3AE4000C8D09 /* Build configuration list for PBXNativeTarget "seahunt" */;
+			buildPhases = (
+				62E4B9D41EFC3AE4000C8D09 /* Sources */,
+				62E4B9D51EFC3AE4000C8D09 /* Frameworks */,
+				62E4B9D61EFC3AE4000C8D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seahunt;
+			productName = seahunt;
+			productReference = 62E4B9D81EFC3AE4000C8D09 /* seahunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62E4B9EB1EFC3AE4000C8D09 /* seahuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E4BA031EFC3AE4000C8D09 /* Build configuration list for PBXNativeTarget "seahuntTests" */;
+			buildPhases = (
+				62E4B9E81EFC3AE4000C8D09 /* Sources */,
+				62E4B9E91EFC3AE4000C8D09 /* Frameworks */,
+				62E4B9EA1EFC3AE4000C8D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E4B9EE1EFC3AE4000C8D09 /* PBXTargetDependency */,
+			);
+			name = seahuntTests;
+			productName = seahuntTests;
+			productReference = 62E4B9EC1EFC3AE4000C8D09 /* seahuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62E4B9F61EFC3AE4000C8D09 /* seahuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62E4BA061EFC3AE4000C8D09 /* Build configuration list for PBXNativeTarget "seahuntUITests" */;
+			buildPhases = (
+				62E4B9F31EFC3AE4000C8D09 /* Sources */,
+				62E4B9F41EFC3AE4000C8D09 /* Frameworks */,
+				62E4B9F51EFC3AE4000C8D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62E4B9F91EFC3AE4000C8D09 /* PBXTargetDependency */,
+			);
+			name = seahuntUITests;
+			productName = seahuntUITests;
+			productReference = 62E4B9F71EFC3AE4000C8D09 /* seahuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62E4B9D01EFC3AE4000C8D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chen, Alan (DS)";
+				TargetAttributes = {
+					62E4B9D71EFC3AE4000C8D09 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3RWE87ARYX;
+						ProvisioningStyle = Automatic;
+					};
+					62E4B9EB1EFC3AE4000C8D09 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62E4B9D71EFC3AE4000C8D09;
+					};
+					62E4B9F61EFC3AE4000C8D09 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62E4B9D71EFC3AE4000C8D09;
+					};
+				};
+			};
+			buildConfigurationList = 62E4B9D31EFC3AE4000C8D09 /* Build configuration list for PBXProject "seahunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62E4B9CF1EFC3AE4000C8D09;
+			productRefGroup = 62E4B9D91EFC3AE4000C8D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62E4B9D71EFC3AE4000C8D09 /* seahunt */,
+				62E4B9EB1EFC3AE4000C8D09 /* seahuntTests */,
+				62E4B9F61EFC3AE4000C8D09 /* seahuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62E4B9D61EFC3AE4000C8D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB440F901F01C93A009BA082 /* Seattle.jpg in Resources */,
+				DB26A6131F17C193004696C6 /* CoolClips_arts0043.png in Resources */,
+				EB0A99E51F16838F009580BD /* 1.jpg in Resources */,
+				DB12EE591F02B3F900F3CED2 /* EarthNeedle.png in Resources */,
+				DBB517F61F05B0EF00F91862 /* Internet_Troll.png in Resources */,
+				DB5B750C1F0E84EC0004A1CE /* NOtSeattle.jpg in Resources */,
+				DB1EA51C1EFDB39800DC8268 /* 09eedd9fa9a985c1628fcd5e68031f08.jpg in Resources */,
+				DB5DDE0D1F0455FE001F9EF9 /* gum.png in Resources */,
+				EB0A99ED1F2A3FAB009580BD /* Green Checkmark.png in Resources */,
+				DBC57B8A1F311FFD001A51E5 /* home_blanc.png in Resources */,
+				DBB517E81F059F0A00F91862 /* tree-51-xxl.png in Resources */,
+				DB8DF8A81F197C7D00A3B4D1 /* cloud-clipart-cirrus-clouds-clipart.png in Resources */,
+				DBAB864A1F02DBBD00969BCF /* Houses.jpg in Resources */,
+				DB26A60F1F17BF79004696C6 /* olympic-sculpture-park.jpg in Resources */,
+				DB5B74F01F0D8FF70004A1CE /* 20270ab8368864af0f9f7a2f18b56d7c.jpg in Resources */,
+				DBC11EC01F0546F5004034F0 /* t-spaceneedle.jpg in Resources */,
+				DBC07C021F057CE500EFC611 /* AlkiPoint.jpg in Resources */,
+				DB26A6151F17D6A9004696C6 /* b8f95f67ba775dc9d98f78f80892b038.png in Resources */,
+				DBAB86481F02DA7300969BCF /* ModernCity.jpg in Resources */,
+				DB8557291F017361003BB615 /* clipart.jpg in Resources */,
+				DB26A6111F17C0A1004696C6 /* images.jpg in Resources */,
+				DBAB86421F02D34000969BCF /* RiskyColors.jpg in Resources */,
+				DB5DDE0B1F045582001F9EF9 /* _vector-brick-and-plaster-preview2-by-dragonart.png in Resources */,
+				EB0A99EF1F2A3FBD009580BD /* red lock.jpg in Resources */,
+				DBAB863E1F02C60700969BCF /* bridge.jpg in Resources */,
+				62E4B9E61EFC3AE4000C8D09 /* LaunchScreen.storyboard in Resources */,
+				DBC11EC21F05539C004034F0 /* SheStatue.jpg in Resources */,
+				DBB517F41F05B03D00F91862 /* 800pxFremontTrollJun12_3103wSeattle5.jpg in Resources */,
+				DB5B75141F0E9D3E0004A1CE /* Hamilton_Viewpoint,_Seattle,_March_2013.jpg in Resources */,
+				7A78147F1F0D7B2D00E40790 /* Images-4.xcassets in Resources */,
+				DB0FAF031F266E59000AFC1F /* Confetti-PNG-Image.png in Resources */,
+				EB4AD5511F06A97F001A9C3D /* water2.jpg in Resources */,
+				62E4B9E31EFC3AE4000C8D09 /* SeaMain in Resources */,
+				DB5DDE0F1F045710001F9EF9 /* GumWall.jpg in Resources */,
+				EB0A99EB1F29006A009580BD /* layer.jpg in Resources */,
+				DB9B92BE1F041B73002DC725 /* Tour Guide.png in Resources */,
+				EB4AD5531F06A99E001A9C3D /* seattle2.jpg in Resources */,
+				DB26A6171F17D788004696C6 /* 8-jpg.jpg in Resources */,
+				DBB517F81F05B5E700F91862 /* GasWorksPark3.jpg in Resources */,
+				DB5B74EC1F0D85250004A1CE /* easy-wallp-hd-wallpapers-animated.jpg in Resources */,
+				DBC07C001F0577E900EFC611 /* 6980-illustration-of-a-lighthouse-pv.png in Resources */,
+				DB9B92C61F042357002DC725 /* Ferris-Wheel-Vector-Silhouette.png in Resources */,
+				DBB517EE1F05A70B00F91862 /* lincoln-park-12.jpg in Resources */,
+				DB5C73A01F0472DE00C54DEF /* CoolClips_vc021117.png in Resources */,
+				DB5B75121F0E9D300004A1CE /* HamiltonViewpointPark4.jpg in Resources */,
+				DBB517F01F05AB6500F91862 /* train-bridge-at-ballard-locks.jpg in Resources */,
+				DBBC4A3F1F30EE130037E06E /* cover.jpg.png in Resources */,
+				DB5B75001F0E821A0004A1CE /* canstock31551803.jpg in Resources */,
+				DBB517FE1F05BD6800F91862 /* pollution.png in Resources */,
+				DBB517F21F05ABDE00F91862 /* Pilot-Boat-By-Rones.png in Resources */,
+				DB5B75061F0E84990004A1CE /* maxresdefault.jpg in Resources */,
+				DB5B74F21F0D9FC00004A1CE /* PinkSpaceNeedle.png in Resources */,
+				DB440F921F02A421009BA082 /* flat.jpg in Resources */,
+				DB5912861F05585B008C24B5 /* crowdinsunset.jpg in Resources */,
+				EB4AD54F1F06A963001A9C3D /* rocks.jpg in Resources */,
+				DB9B92C21F041EBC002DC725 /* bubble.png in Resources */,
+				DB5B75101F0E9C4E0004A1CE /* SeattleSkyline_web.gif in Resources */,
+				EB0A99E71F1695D5009580BD /* home-letsgetstarted.png in Resources */,
+				DB14BB001F3245E2007103FB /* kirby.png in Resources */,
+				DB5B74FA1F0DA4DA0004A1CE /* 20140927_5426a6bbd3816.jpg in Resources */,
+				DB5B750A1F0E84BC0004A1CE /* sunrise-landscape-in-the-forest_23-2147512072.jpg in Resources */,
+				DBAB86441F02D88400969BCF /* FunkyColors.jpg in Resources */,
+				DBE2DCD91F0428BB00B2F5E2 /* Seattle.Great.Wheel.original.36606.jpg in Resources */,
+				DB440F941F02A6EF009BA082 /* blueDark.jpg in Resources */,
+				62E4B9E11EFC3AE4000C8D09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E4B9EA1EFC3AE4000C8D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E4B9F51EFC3AE4000C8D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62E4B9D41EFC3AE4000C8D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E4B9DE1EFC3AE4000C8D09 /* ViewController.swift in Sources */,
+				6254CC5D1F180D4A00C1E3EE /* ServerAPI.swift in Sources */,
+				7AF80CDE1F1439AA006026C7 /* Camera.swift in Sources */,
+				7AF80CD61F142283006026C7 /* Image.swift in Sources */,
+				7AF80CD81F142CA2006026C7 /* StandardImage.swift in Sources */,
+				7A2FCFFB1F1963750083CEDD /* JavaServerConnect.swift in Sources */,
+				62E4B9DC1EFC3AE4000C8D09 /* AppDelegate.swift in Sources */,
+				7ABBDD4F1F30CF9200C6DBA3 /* PopUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E4B9E81EFC3AE4000C8D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E4B9F11EFC3AE4000C8D09 /* seahuntTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62E4B9F31EFC3AE4000C8D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E4B9FC1EFC3AE4000C8D09 /* seahuntUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62E4B9EE1EFC3AE4000C8D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E4B9D71EFC3AE4000C8D09 /* seahunt */;
+			targetProxy = 62E4B9ED1EFC3AE4000C8D09 /* PBXContainerItemProxy */;
+		};
+		62E4B9F91EFC3AE4000C8D09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62E4B9D71EFC3AE4000C8D09 /* seahunt */;
+			targetProxy = 62E4B9F81EFC3AE4000C8D09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62E4B9DF1EFC3AE4000C8D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E4B9E01EFC3AE4000C8D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62E4B9E41EFC3AE4000C8D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62E4B9E51EFC3AE4000C8D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62E4B9FE1EFC3AE4000C8D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62E4B9FF1EFC3AE4000C8D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62E4BA011EFC3AE4000C8D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3RWE87ARYX;
+				INFOPLIST_FILE = seahunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cdk.internship.seahunt2zzzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62E4BA021EFC3AE4000C8D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 3RWE87ARYX;
+				INFOPLIST_FILE = seahunt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cdk.internship.seahunt2zzzz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		62E4BA041EFC3AE4000C8D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = seahuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cdk.internship.seahuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seahunt.app/seahunt";
+			};
+			name = Debug;
+		};
+		62E4BA051EFC3AE4000C8D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = seahuntTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cdk.internship.seahuntTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seahunt.app/seahunt";
+			};
+			name = Release;
+		};
+		62E4BA071EFC3AE4000C8D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = seahuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cdk.internship.seahuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = seahunt;
+			};
+			name = Debug;
+		};
+		62E4BA081EFC3AE4000C8D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = seahuntUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cdk.internship.seahuntUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = seahunt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62E4B9D31EFC3AE4000C8D09 /* Build configuration list for PBXProject "seahunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E4B9FE1EFC3AE4000C8D09 /* Debug */,
+				62E4B9FF1EFC3AE4000C8D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E4BA001EFC3AE4000C8D09 /* Build configuration list for PBXNativeTarget "seahunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E4BA011EFC3AE4000C8D09 /* Debug */,
+				62E4BA021EFC3AE4000C8D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E4BA031EFC3AE4000C8D09 /* Build configuration list for PBXNativeTarget "seahuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E4BA041EFC3AE4000C8D09 /* Debug */,
+				62E4BA051EFC3AE4000C8D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62E4BA061EFC3AE4000C8D09 /* Build configuration list for PBXNativeTarget "seahuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E4BA071EFC3AE4000C8D09 /* Debug */,
+				62E4BA081EFC3AE4000C8D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62E4B9D01EFC3AE4000C8D09 /* Project object */;
+}
